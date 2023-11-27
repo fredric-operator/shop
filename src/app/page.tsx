@@ -4,7 +4,7 @@ import Testimonial from "./components/Testimonial";
 
 export default function Home() {
   return (
-    <main>
+    <main className="pl-10">
       <Hero />
       <NewProducts />
       <Testimonial />

@@ -95,8 +95,10 @@ const ProductCard: React.FC<propsType> = ({
 
         <div className="font-bold flex gap-4">
           Tsh{price}
-          
+         
         </div>
+        <div>contact supplier:0684710344</div>
+          
       </div>
     </div>
   );

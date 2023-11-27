@@ -18,23 +18,23 @@ const Hero = () => {
     {
       id: 0,
       img: "/banner-1.jpg",
-      title: "Trending Item",
-      mainTitle: "WOMEN'S LATEST FASHION SALE",
-      price: "$20",
+      title: "Craft Your Success",
+      mainTitle: "Start Quality Stationery",
+      price: "standard quality",
     },
     {
       id: 1,
       img: "/banner-2.jpg",
-      title: "Trending Accessories",
-      mainTitle: "MODERN SUNGLASSES",
-      price: "$15",
+      title: "Unleash your potential",
+      mainTitle: "Premium Stationery picks",
+      price: "standard quality",
     },
     {
       id: 2,
       img: "/banner-3.jpg",
-      title: "Sale Offer",
-      mainTitle: "NEW FASHION SUMMER SALE",
-      price: "$30",
+      title: "Write your legancy",
+      mainTitle: "Our Stationary, Your Story",
+      price: "standard quality",
     },
   ];
 
