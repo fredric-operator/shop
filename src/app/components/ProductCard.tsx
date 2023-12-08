@@ -77,24 +77,24 @@ const ProductCard: React.FC<propsType> = ({
   };
 
   return (
-    <div className="px-4 border border-gray-200 rounded-xl max-w-[400px]">
+    <div className="px-4 border border-gray-200 rounded-xl max-w-[200px]">
       <div>
         <Image
-          className="w-full h-auto"
+          className="w-fixed h-fixed"
           src={img}
-          width={200}
-          height={300}
+          width={100}
+          height={150}
           alt={title}
         />
       </div>
 
-      <div className="space-y-2 py-2">
+      <div className="">
         <h2 className="text-accent font-medium uppercase">{title}</h2>
         <p className="text-gray-500 max-w-[150px]">{desc}</p>
-        <div>{generateRating(rating)}</div>
+        <div></div>
 
-        <div className="font-bold flex gap-4">
-          Tsh{price}
+        <div className="font-bold text-blue-600/100 flex gap-4">
+          Tsh {price}
          
         </div>
         <div>contact supplier:0684710344</div>

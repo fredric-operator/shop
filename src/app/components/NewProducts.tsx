@@ -52,11 +52,11 @@ const productsData = [
     price: "3,000/=",
   },
   {
-    img: "/compass nataraj.jpg",
+    img: "/compassnataraj.jpg",
     title: "Nataraj compass",
     desc: "1 Piece of compass",
     rating: 4,
-    price: "4,500",
+    price: "4,500/=",
   },
   {
     img: "/rotatrim ream.jpg",
@@ -70,7 +70,7 @@ const productsData = [
     title: "A4 Double A ream",
     desc: "Curton with 5 pieces",
     rating: 4,
-    price: "60,000",
+    price: "60,000/=",
   },
 ];
 
